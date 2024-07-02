@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import NavbarComponent from "../NavbarComponent";
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <section>
+      <NavbarComponent />
+    </section>
+  );
+};
 
-export default Home
+export default Home;
