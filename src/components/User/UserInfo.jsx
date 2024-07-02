@@ -1,7 +1,14 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const UserInfo = () => {
-  return <div>UserInfo</div>;
+  return (
+    <section>
+      <Container>
+        
+      </Container>
+    </section>
+  );
 };
 
 export default UserInfo;
