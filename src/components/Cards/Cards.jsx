@@ -6,7 +6,7 @@ const Cards = () => {
   return (
     <Container>
       {users.map((user, index) => (
-        <div key={index} className="card">
+        <div key={index} className="card w-25 d-flex justify-content-center align-items-center flex-column mt-5">
           <img src={logo} alt="logo" width={120} height={120} />
           <h2>{user.name}</h2>
           <p>{user.profession}</p>
