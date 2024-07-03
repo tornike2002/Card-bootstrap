@@ -1,8 +1,8 @@
-# React + Vite
+პირველ რიგში შევდივართ მომხარებლების დამატებაში და ვამატებთ ინფორმაციას
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+სოციალური მედიის ლინკები უნდა შეიცავდეს სწორ ლინკს თუ არადა არ დაემატება
 
-Currently, two official plugins are available:
+დამატების შემდეგ გადავდივართ ქარდების სექციაში და ვნახულობთ ჩვენს მიერ დამატებულ ინფორმაციას ადამიანის შესახებ
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+დიზაინის აწყობა ვერ მოხერხდხა ისეთის როგორც იყო რადგან არ მქონდა სურათები.
