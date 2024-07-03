@@ -13,10 +13,10 @@ const Cards = () => {
   const users = useSelector((state) => state.users.value);
 
   const socialMediaIcons = {
-    Instagram: <FaInstagram />,
-    Facebook: <FaFacebookF />,
-    Twitter: <FaTwitter />,
-    Discord: <FaDiscord />,
+    Instagram: <FaInstagram className="text-white" />,
+    Facebook: <FaFacebookF className="text-white" />,
+    Twitter: <FaTwitter className="text-white" />,
+    Discord: <FaDiscord className="text-white" />,
   };
   const getIconComponent = (url) => {
     if (url.includes("instagram")) return socialMediaIcons.Instagram;
@@ -70,7 +70,7 @@ const Cards = () => {
               <div className="d-flex gap-2 mt-3">
                 {user.socialMedia.map((social, index) => (
                   <a
-                    href={`https://${social}`} // Assuming social contains full URLs like instagram.com/tornike_2
+                    href={`https://${social}`} 
                     target="_blank"
                     rel="noopener noreferrer"
                     key={index}
