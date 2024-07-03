@@ -1,11 +1,13 @@
+import { Container } from "react-bootstrap";
 import { useSelector } from "react-redux";
-
+import logo from "../../assets/logo.webp";
 const Cards = () => {
   const users = useSelector((state) => state.users.value);
   return (
-    <div>
+    <Container>
       {users.map((user, index) => (
         <div key={index} className="card">
+          <img src={logo} alt="logo" width={120} height={120} />
           <h2>{user.name}</h2>
           <p>{user.profession}</p>
           <h3>Services</h3>
@@ -22,7 +24,7 @@ const Cards = () => {
           </ul>
         </div>
       ))}
-    </div>
+    </Container>
   );
 };
 
