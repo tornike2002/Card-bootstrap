@@ -5,7 +5,7 @@ const UserInfo = () => {
   return (
     <section>
       <Container>
-        
+          <h1>userinfo</h1>
       </Container>
     </section>
   );
